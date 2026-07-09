@@ -1,0 +1,19 @@
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Локальные базы данных
+*.db
+*.sqlite3
+
+# Настройки IDE/OC.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Виртуальное окружение (если вдруг создашь)
+.env
+.venv/
+venv/
