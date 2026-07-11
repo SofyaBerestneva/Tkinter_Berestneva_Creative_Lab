@@ -24,6 +24,14 @@ python main.py
 
 При первом запуске автоматически создастся файл `contacts.db`.
 
+*Примечание для пользователей Linux (Ubuntu/Debian):*
+
+Если при запуске возникает ошибка импорта tkinter, установите его командой:
+
+```bash
+sudo apt install python3-tk
+```
+
 ## 📂 Структура проекта
 | Файл | Описание |
 | :--- | :--- |
@@ -44,15 +52,19 @@ python main.py
 ## 📸 Скриншоты
 ### Главное окно
 ![Главное окно](assets/screenshot_main_window.png)
+
 ***
 ### Текстовый редактор для быстрых правок и создания файлов
 ![Текстовый редактор](assets/screenshot_text_editor.png)
+
 ***
 ### Калькулятор для базовых расчетов
 ![Калькулятор](assets/screenshot_calculator.png)
+
 ***
 ### Отрисовка Tux стандартными примитивами Canvas
 ![Пингвин Tux на Canvas](assets/screenshot_tux.png)
+
 ***
 
 ## ✨ Особенности
